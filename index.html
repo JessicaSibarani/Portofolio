@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="Pq-90ktLgim03Qo3VHICWmWrN8d8IZlvYHRAIB48yvs"
+    />
+    <meta
+      name="keywords"
+      content="Jessica, junior web developer, portofolio, html, css, javascript,"
+    />
+
+    <!-- Integrasi EmailJS untuk formulir kontak -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      emailjs.init("ocyYSj4C28r4H-3pD"); // Ganti dengan User ID dari Email.js
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jessica Natasya Sibarani",
+        "url": "https://JessicaSibarani.github.io/Portofolio/",
+        "sameAs": [
+          "https://www.instagram.com/ka.jess_",
+          "https://github.com/JessicaSibarani",
+          "https://www.tiktok.com/@jeyynat"
+        ],
+        "jobTitle": "Quality Assurance",
+        "worksFor": {
+          "@type": "Organization",
+          "name": ""
+        }
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Gallery/favicon.png?v=1.0" />
+
+    <!-- Judul halaman yang ditampilkan di tab browser dan juga berperan penting dalam SEO -->
+    <title>
+      Jessica Natasya Sibarani – Portfolio Web Developer & IT Student
+    </title>
+
+    <!-- Meta description membantu mesin pencari memahami isi halaman -->
+    <meta
+      name="description"
+      content="Website pribadi Jessica Natasya Sibarani – menampilkan hasil karya desain web, proyek coding, dan perjalanan belajar secara mandiri."
+    />
+
+    <!-- Open Graph Tags untuk Social Media -->
+    <meta property="og:title" content="Portofolio Jessica Natasya Sibarani" />
+    <meta
+      property="og:description"
+      content="Web developer pemula yang siap berkembang dengan pengalaman di bidang web, testing, dan desain."
+    />
+    <meta
+      property="og:image"
+      content="https://arsyaf02.github.io/assets/arsyaf-thumbnail.jpg"
+    />
+    <meta property="og:url" content="https://JessicaSibarani.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Mengimpor ikon dari Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jessica Natasya Sibarani",
+        "url": "https://JessicaSibarani.github.io/Portofolio/",
+        "sameAs": [
+          "https://www.linkedin.com/in/jessicanatasyasibarani",
+          "https://github.com/JessicaSibarani",
+          "https://twitter.com/arsyafal99"
+        ],
+        "jobTitle": "Junior Web Developer",
+        "description": "Portfolio personal Jessica Natasya Sibarani – Web Developer, Quality Assurance Analyst, UI/UX Designer.",
+        "image": "https://arsyafal99.github.io/personal-portfolio-seo/Gallery/Baru Home.png"
+      }
+    </script>
+
+    <!-- Menghubungkan file CSS kustom -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header untuk navigasi utama -->
+    <header class="header">
+      <!-- H1 disembunyikan untuk kebutuhan SEO tanpa mengganggu desain -->
+      <h1 class="visually-hidden">
+        Jessica Natasya Sibarani – Portfolio Web Developer & Quality Assurance
+      </h1>
+
+      <!-- Logo di sisi kiri header -->
+      <a href="#" class="logo">Welcome To My Portfolio</a>
+
+      <!-- Icon menu untuk mode mobile -->
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <!-- Navigasi utama -->
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact-form">Contact</a>
+      </nav>
+    </header>
+    <!-- header design end -->
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h2>Jessica Natasya Sibarani</h2>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <!-- Paragraf perkenalan yang sudah diperbarui dan mengandung keyword SEO -->
+        <p>
+          Saya adalah mahasiswa D3 Teknologi Informasi di Institut Teknologi Del
+          yang memiliki ketertarikan pada pengembangan website, aplikasi mobile,
+          serta pengujian perangkat lunak.
+          <br />
+          Saat ini saya aktif belajar dalam pengembangan minat di bidang website menggunakan HTML, CSS,
+          JavaScript, dan Laravel, serta membangun aplikasi mobile menggunakan
+          Flutter.
+          <br />
+          Saya juga memiliki pengalaman melakukan regression testing menggunakan
+          Selenium untuk memastikan fitur website berjalan dengan baik tanpa bug.
+          <br />
+          Selain itu, saya juga tertarik pada analisis data dan terus belajar
+          mengembangkan kemampuan teknis saya agar dapat menciptakan sistem yang
+          berguna dan efisien.
+        </p>
+        <!-- Media sosial -->
+        <div class="social-media">
+          <a href="https://www.facebook.com/share/1B5NMqmXXU/"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/ka.jess_ "
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/JessicaSibarani"
+            ><i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.tiktok.com/@developerboongan.pdf?is_from_webapp=1&sender_device=pc"
+            ><i class="bx bxl-tiktok"></i
+          ></a>
+        </div>
+
+        <!-- Tombol untuk mengunduh CV -->
+        <a
+          href="https://drive.google.com/file/d/1bulKKW_zkrZRpx49wwCplHgVZWFw3FDk/view?usp=drive_link"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <!-- Gambar profil bagian kanan -->
+      <div class="home-img">
+        <img
+          src="Gallery/New.png"
+          alt="Foto Arsyaf Dwi Nur Prasetyo - Web Developer"
+        />
+      </div>
+    </section>
+    <!-- home section design end -->
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Gallery/Baru about.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About<span> Me</span></h2>
+        <h3>Mahasiswa Teknologi Informasi </h3>
+        <p>
+          Halo! Saya Jessica Natasya Sibarani, mahasiswa D3 Teknologi Informasi di 
+          Institut Teknologi Del. Saya memiliki ketertarikan pada bidang 
+          pengembangan website, aplikasi mobile, serta pengujian perangkat lunak.
+          <br /><br />
+          Saat ini saya aktif belajar dalam pengembangan minat di bidang 
+          <strong>HTML, CSS, JavaScript, dan Laravel</strong>, serta membangun 
+          aplikasi mobile menggunakan <strong>Flutter</strong>. Saya juga memiliki 
+          pengalaman melakukan <strong>software testing menggunakan Selenium</strong> 
+          untuk memastikan sistem berjalan dengan baik dan bebas dari bug.
+          <br /><br />
+          Selain itu, saya juga tertarik pada <strong>analisis data</strong> dan 
+          terus mengembangkan kemampuan teknis saya untuk membangun sistem yang 
+          bermanfaat, efisien, dan mudah digunakan..
+        </p>
+        <a href="about.html" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- about section design end -->
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading"><span>My </span>Services</h2>
+
+      <div class="services-container">
+
+  <!-- service 1: Web Development -->
+  <div class="services-box">
+    <i class="bx bx-code-alt"></i>
+    <h3>Web Development</h3>
+    <p>
+      Saya aktif belajar dalam pengembangan minat di bidang website menggunakan HTML, CSS, JavaScript, 
+      dan Laravel. Saya fokus membuat website yang responsif, 
+      mudah digunakan, serta memiliki tampilan yang sederhana 
+      dan fungsional.
+    </p>
+    <a href="web.html" class="btn">Read More</a>
+  </div>
+
+  <!-- service 2: Mobile Development -->
+  <div class="services-box">
+    <i class="bx bx-mobile-alt"></i>
+    <h3>Mobile Development</h3>
+    <p>
+      Saya juga mengembangkan aplikasi mobile menggunakan Flutter. 
+      Saya belajar membangun aplikasi yang memiliki tampilan 
+      sederhana namun tetap fungsional untuk membantu kebutuhan pengguna.
+    </p>
+    <a href="mobile.html" class="btn">Read More</a>
+  </div>
+
+  <!-- service 3: Software Testing -->
+  <div class="services-box">
+    <i class="bx bx-bug"></i>
+    <h3>Software Testing</h3>
+    <p>
+      Saya memiliki pengalaman melakukan pengujian perangkat lunak 
+      menggunakan Selenium untuk melakukan regression testing, 
+      memastikan fitur sistem berjalan dengan baik dan bebas dari bug.
+    </p>
+    <a href="testing.html" class="btn">Read More</a>
+  </div>
+
+</div>
+    </section>
+    <!-- services section design end -->
+    <!-- Certificates (baru ditambahkan) -->
+    <section class="certificate" id="certificate">
+      <h2 class="heading">My <span>Certificates</span></h2>
+      <div class="certificate-slider">
+        <div class="slide">
+          <img src="serti/1.png" alt="Sertifikat 1" />
+        </div>
+        <div class="slide">
+          <img src="serti/2.png" alt="Sertifikat 2" />
+        </div>
+        <div class="slide">
+          <img src="serti/3.jpg" alt="Sertifikat 3" />
+        </div>
+        <div class="slide">
+          <img src="serti/4.jpg" alt="Sertifikat 4" />
+        </div>
+        <div class="slide">
+          <img src="serti/5.jpg" alt="Sertifikat 5" />
+        </div>
+      <div class="cert-nav">
+        <button id="prev">❮</button>
+        <button id="next">❯</button>
+      </div>
+    </section>
+
+    <!-- Modal Zoom Sertifikat -->
+    <div id="certModal" class="cert-modal">
+      <span class="close">&times;</span>
+      <img class="cert-modal-content" id="certImg" />
+      <div id="caption"></div>
+    </div>
+    <!-- Certificates End -->
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <!-- content protfolio 1 -->
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="image/IMG-20250328-WA0001.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Proyek Akhir(PA) 1</h4>
+            <p>Website Restoran Tepi Danau Bistro/p>
+            <a href="https://arsyaf02.github.io/JOKIIINGENZ/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- content protfolio 2 -->
+        <div class="portfolio-box">
+          <img src="image/IMG-20250328-WA0002.jpeg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Proyek Akhir(PA) 2</h4>
+            <p>Website Himpunan Mahasiswa D3 Teknologi Informasi(HIMATIF)</p>
+            <a
+              href="https://drive.google.com/drive/folders/1PKsZpClSK1DBRD1sjEVC3LbkcNyxVnnt?usp=sharing"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- content protfolio 3 -->
+        <div class="portfolio-box">
+          <img src="image/IMG-20250328-WA0003.jpeg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Tugas Akhir</h4>
+            <p>Website Monitoring dan Pelaporan Distribusi Bantuan Pertanian di Kabupaten Toba.</p>
+            <a href="https://github.com/JessicaSibarani/dinaspertanian-apps.git"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+    </section>
+    <!-- portfolio section design end -->
+    <!-- contact section design -->
+    <section class="contact-form" id="contact-form">
+      <h2 class="heading"><span>Contact </span>Me!</h2>
+
+      <form id="contact-form">
+        <div class="input-box">
+          <input type="text" id="fullName" placeholder="Full Name" />
+          <input type="email" id="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" id="mobileNumber" placeholder="Mobile Number" />
+          <input type="text" id="subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- contact section design end -->
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2024 by Jessica Natasya Sibarani | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- footer design end -->
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- custom js -->
+    <script src="jss/script.js"></script>
+  </body>
+</html>
